@@ -1,0 +1,13 @@
+# Derlenmis dosyalar
+kutuphane
+*.exe
+*.o
+*.out
+
+# Ders belgeleri (repoya gerek yok)
+*.pdf
+
+# Editor / sistem
+.DS_Store
+.vscode/
+.idea/
