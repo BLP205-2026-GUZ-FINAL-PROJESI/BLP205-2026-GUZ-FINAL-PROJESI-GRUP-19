@@ -15,7 +15,7 @@ Fonksiyon isimleri plandir; kod yazildikca gercek adlarla guncellenecektir.
 ## 1. Yavuz Buğra Sorguç - Modul 1
 
 - **Dosyalar:** `ortak.h`, `modul1.h`, `modul1.cpp`
-- **Yazacagi fonksiyonlar:** Cift yonlu bagli listede `kitapBasaEkle`, `kitapSonaEkle`, `kitapArayaEkle`, `kitapSil`, `ileriListele`, `geriListele`, `katalogAnaliz`; dairesel listede `duyuruEkle`, `duyuruListele`; `dosyayaYaz`, `dosyadanOku` ve liste bellek temizleme.
+- **Yazacagi fonksiyonlar:** Cift yonlu bagli listede `kitabiBasaEkle`, `kitabiSonaEkle`, `kitabiArayaEkle`, `kitabiSil`, `ileriListele`, `geriListele`, `katalogAnalizEt`; dairesel listede `duyuruEkle`, `duyuruListele`; `dosyayaYaz`, `dosyadanOku`; `kitapListesiniTemizle`, `duyuruListesiniTemizle`, `modul1OrnekVeriYukle`, `modul1Menu`.
 - **Test edecegi bolumler:** Bos liste, basa/sona/araya ekleme, ilk/orta/son dugum silme, ileri-geri listelemenin ters sirada ayni kayitlari gostermesi, dairesel listenin bir tur sonra durmasi, dosya yazma/okuma.
 - **Ortak calismalar:** `Kitap` yapisinin `ortak.h` icinde tanimlanmasi ve Modul 3 ile paylasimi.
 
