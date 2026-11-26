@@ -4,10 +4,14 @@ kutuphane
 *.o
 *.out
 
-# Ders belgeleri (repoya gerek yok)
+# Ders belgeleri
 *.pdf
 
 # Editor / sistem
 .DS_Store
 .vscode/
 .idea/
+
+#test dosyalari
+test
+test*.cpp
