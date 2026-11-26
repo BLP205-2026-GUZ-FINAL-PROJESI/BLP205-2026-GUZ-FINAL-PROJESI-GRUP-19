@@ -60,3 +60,42 @@ void matrisiYazdir() {
     }
     cout << endl;
 }
+
+void bfsGezinme(int baslangic) {
+    if (baslangic < 0 || baslangic >= BIRIM_SAYISI) {
+        cout << "Gecersiz baslangic birimi!" << endl;
+        return;
+    }
+
+    bool ziyaretEdildi[BIRIM_SAYISI] = {false};
+    int kuyruk[BIRIM_SAYISI];
+    int bas = 0;
+    int son = 0;
+
+    ziyaretEdildi[baslangic] = true;
+    kuyruk[son] = baslangic;
+    son++;
+
+    cout << "\n--- BFS Gezinme (" << birimAdlari[baslangic] << ") ---\n";
+
+    bool ilkMi = true;
+    while (bas < son) {
+        int suanki = kuyruk[bas];
+        bas++;
+
+        if (!ilkMi) {
+            cout << " -> ";
+        }
+        cout << birimAdlari[suanki];
+        ilkMi = false;
+
+        for (int i = 0; i < BIRIM_SAYISI; i++) {
+            if (komsulukMatrisi[suanki][i] > 0 && !ziyaretEdildi[i]) {
+                ziyaretEdildi[i] = true;
+                kuyruk[son] = i;
+                son++;
+            }
+        }
+    }
+    cout << endl << endl;
+}

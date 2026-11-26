@@ -18,6 +18,6 @@ C++ konsol uygulamasi.
 | 1 | Yavuz Buğra Sorguç | 202507012024 | henwaffles | Modul 1 - Bagli Listeler ve Dosya Islemleri |
 | 2 | Ahmet Baran Demir | 202507012068 | | Modul 2 - Yigin (Stack) ve Kuyruk (Queue) |
 | 3 | Rızkullah Yasin Balkış | 202507012034 | | Modul 3 - Siralama ve Arama Algoritmalari |
-| 4 | Mert Tunç Pervane | 202507012049 | | Modul 4 - Graf ve Kampus Rota Analizi |
+| 4 | Mert Tunç Pervane | 202507012049 | Odlizz | Modul 4 - Graf ve Kampus Rota Analizi |
 
 Ayrintili gorev dagilimi icin: [GOREV_DAGILIMI.md](GOREV_DAGILIMI.md)
