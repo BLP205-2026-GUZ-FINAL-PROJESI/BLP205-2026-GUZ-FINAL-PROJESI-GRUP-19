@@ -36,6 +36,6 @@ Fonksiyon isimleri plandir; kod yazildikca gercek adlarla guncellenecektir.
 ## 4. Mert Tunç Pervane - Modul 4
 
 - **Dosyalar:** `modul4.h`, `modul4.cpp`
-- **Yazacagi fonksiyonlar:** Kampus grafi icin `komsulukMatrisiOlustur`, `matrisYazdir`, `bfsGezinme`, `dfsGezinme`, `dijkstraEnKisaYol` (mesafe ve rota yazdirma).
+- **Yazacagi fonksiyonlar:** Kampus grafi icin `komsulukMatrisiOlustur`, `matrisiYazdir`, `bfsGezinme`, `dfsGezinme`, `dijkstraEnKisaYol` (mesafe ve rota yazdirma).
 - **Test edecegi bolumler:** Matris goruntuleme, farkli baslangic dugumleriyle BFS/DFS, en az bir Dijkstra rota sorgusu, gecersiz bina numarasi.
 - **Ortak calismalar:** Program ekran goruntuleri ve README'nin derleme/kullanim bolumleri.
